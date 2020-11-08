@@ -1525,6 +1525,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+angular2-counto@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/angular2-counto/-/angular2-counto-1.2.5.tgz#fb43dc0300513cd9a7f996437e68265a84c0f036"
+  integrity sha512-W9WVzUOn+e5tRwHtz0EUiApOBjx1X3GbZ6FVb82f6mAaJdq756WIvMgK5kldpx8jJNsR3W/riF76G26zbs10gw==
+
 ansi-colors@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
@@ -4972,6 +4977,11 @@ jest-worker@^26.3.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+"jquery@>= 2.2.0", jquery@>=1.8.3:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
+  integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -5746,6 +5756,33 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
+ng2-animate-on-scroll@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ng2-animate-on-scroll/-/ng2-animate-on-scroll-2.0.1.tgz#709329d94e4c5b1804c786abaec19a6a103e06a0"
+  integrity sha512-8el2/Z3eKElVoXIA87n1fKYu2P4+8KphWBrS5kuIay2ByzFqI2PHs4Ocv6CxWy2hJBGCTHWwezZ8QZ27fH32Dg==
+
+ng2-odometer@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/ng2-odometer/-/ng2-odometer-1.1.3.tgz#27209e7ed225790120635aba2281b8a9318b6f47"
+  integrity sha1-JyCeftIleQEgY1q6IoG4qTGLb0c=
+  dependencies:
+    odometer "^0.4.8"
+
+ngx-owl-carousel-o@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-owl-carousel-o/-/ngx-owl-carousel-o-4.0.0.tgz#b196dba24fd18a1d0918fee997cdef4467390342"
+  integrity sha512-CaHiC9XyTgk4bMSVdYivUUFnvLU8ghouCPwxK25419SDfLeCo/gtfqkLQf5HdS1qIIQ0niAKSN8tQBz1HX0OKA==
+  dependencies:
+    tslib "^2.0.0"
+
+ngx-owl-carousel@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/ngx-owl-carousel/-/ngx-owl-carousel-2.0.7.tgz#1a8854a64026c785dd0e6721a6a2fd64b17e254a"
+  integrity sha512-y2RkgavDwLx//3iDnheX9WCo3EdZR09QJSoXmQDQR386LmOJSmqF0fOCJAgcp/l4GkdkEH8DpIu3VL+8TxWCJw==
+  dependencies:
+    jquery ">= 2.2.0"
+    owl.carousel "^2.2.0"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -6041,6 +6078,11 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
+odometer@^0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/odometer/-/odometer-0.4.8.tgz#2f6703bf4c6b384c278236d04d4bc8171abe4374"
+  integrity sha1-L2cDv0xrOEwngjbQTUvIFxq+Q3Q=
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -6125,6 +6167,13 @@ osenv@^0.1.5:
   dependencies:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
+
+owl.carousel@^2.2.0:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/owl.carousel/-/owl.carousel-2.3.4.tgz#6c53dc8d24304b790e4f27a1dc4a655e973ccdc9"
+  integrity sha512-JaDss9+feAvEW8KZppPSpllfposEzQiW+Ytt/Xm5t/3CTJ7YVmkh6RkWixoA2yXk2boIwedYxOvrrppIGzru9A==
+  dependencies:
+    jquery ">=1.8.3"
 
 p-finally@^1.0.0:
   version "1.0.0"
